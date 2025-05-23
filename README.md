@@ -36,7 +36,6 @@ python main.py -optim adam -lr 0.001 -bs 128 -hid_dim 256 -ep 20
 - Evaluation: Accuracy on test set per epoch
 ## Example Output
 ```bash
-python main.py
 MNIST Train Dataset is 60000 samples, Test Dataset is 10000 samples.
 Before Training, The Accuracy of Test Loader is 0.0764.
 Epoch: [ 0/50] | Train Loss: 0.5393  | Accuracy: 90.50 % | LR: 0.00950 | Time: 28.11 s | Now: 2025-05-23 14:38:41.
